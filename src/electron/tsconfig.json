@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        // strict to enforce type-checking(null checks, etc.)
+        "strict": true,
+        // tells ts to generate ESM syntax
+        "target": "ESNext",
+        // tells ts that code will written in ESM syntax
+        "module": "NodeNext",
+        // tells ts to where put the compiled js files
+        "outDir": "../../dist-electron",
+        //ignores ts recommendation errors from dependecies
+        "skipLibCheck": true,
+    }
+}
+
+//MARK -> This file is used to compile the electron main process code, this tells the ts compiler that here is my electron main process code, compile it into js and put the output in dist-electron folder
