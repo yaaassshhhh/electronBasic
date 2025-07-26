@@ -10,7 +10,14 @@
         "outDir": "../../dist-electron",
         //ignores ts recommendation errors from dependecies
         "skipLibCheck": true,
-    }
+    },
+       "include": [
+        "./main.ts"
+    ],
+    "exclude": [
+        "../../node_modules/**/*",
+        "../../dist-electron/**/*"
+    ]
 }
 
 //MARK -> This file is used to compile the electron main process code, this tells the ts compiler that here is my electron main process code, compile it into js and put the output in dist-electron folder
