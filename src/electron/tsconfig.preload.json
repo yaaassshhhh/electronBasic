@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2020",
+    "module": "CommonJS", // CommonJS for preload
+    "outDir": "../../dist-electron",
+    "skipLibCheck": true
+  },
+  "include": ["./preload.cts"],
+  "exclude": ["../../node_modules/**/*"]
+}

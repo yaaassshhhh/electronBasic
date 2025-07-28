@@ -12,11 +12,14 @@
         "skipLibCheck": true,
     },
        "include": [
-        "./main.ts"
+        "./main.ts", 
+        "./pathResolver.ts",
+        "./utils.ts",
+        "./resourceManager.ts"
     ],
     "exclude": [
         "../../node_modules/**/*",
-        "../../dist-electron/**/*"
+        "../../dist-electron/**/*",
     ]
 }
 
